@@ -12,7 +12,7 @@ type TChipsBlockProps = {
     setPokemonInfo: (info: TPokemonInfo) => void;
 };
 
-const ChipsBlock: React.FC<TChipsBlockProps> = ({ setPokemonInfo }) => {
+const ChipsBlock = ({ setPokemonInfo }: TChipsBlockProps) => {
     const [pokemons, setPokemons] = useState<TPokemonName[]>();
 
     const getPokemons = async () => {

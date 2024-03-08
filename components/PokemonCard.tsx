@@ -3,7 +3,6 @@
 import { TPokemonInfo } from "@/models/PokemonInfo";
 import { Box, Card, CardContent, Typography, styled } from "@mui/material";
 import Image from "next/image";
-import { useEffect } from "react";
 
 type TPokemonCardProps = {
     pokemonInfo: undefined | TPokemonInfo;

@@ -1,3 +1,5 @@
+"use client";
+
 import { Typography, styled } from "@mui/material";
 
 const LogoIcon = () => {
